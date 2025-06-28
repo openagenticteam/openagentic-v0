@@ -38,10 +38,12 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@ai-sdk/vercel": "^1.0.7",
     "@langchain/anthropic": "^0.3.21",
     "@langchain/core": "^0.3.57",
     "@langchain/google-genai": "^0.2.10",
-    "@langchain/openai": "^0.5.11"
+    "@langchain/openai": "^0.5.11",
+    "ai": "^4.1.12"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.10",

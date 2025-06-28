@@ -27,6 +27,23 @@
       ]
     },
     {
+      "name": "v0",
+      "description": "Use Vercel's v0 AI to generate UI components, web applications, and interactive designs with modern frameworks",
+      "provider": "vercel",
+      "modelClass": "custom",
+      "defaultModel": "v0-1.0-md",
+      "modelOptions": [
+        "v0-1.0-md",
+        "v0-1.0-sm"
+      ],
+      "customParameters": {
+        "prompt": {
+          "type": "string",
+          "description": "The design prompt describing what UI component or application to create"
+        }
+      }
+    },
+    {
       "name": "gemini",
       "description": "Use Google Gemini model for text generation, analysis, and creative tasks with multimodal capabilities",
       "provider": "google",
